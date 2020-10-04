@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "neighborbaked": {
+      "hosting": {
+        "nbktrgag": [
+          "neighborbaked"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "neighborbaked0": "neighborbaked"
+  }
+}
