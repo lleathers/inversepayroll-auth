@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyAEaWZ4aFW9tWXt5O8hI5MW9T0JMYskcvw",
-    authDomain: "neighborbaked.firebaseapp.com",
-    databaseURL: "https://neighborbaked.firebaseio.com",
-    projectId: "neighborbaked",
-    storageBucket: "neighborbaked.appspot.com",
-    messagingSenderId: "914960050030",
-    appId: "1:914960050030:web:572d969fbf548e2799037f"
+    apiKey: "AIzaSyChbNqumV8lgPuNCQXNr28ZXPCWwkhefZ4",
+    authDomain: "inversepay.firebaseapp.com",
+    databaseURL: "https://inversepay.firebaseio.com",
+    projectId: "inversepay",
+    storageBucket: "inversepay.appspot.com",
+    messagingSenderId: "211019252250",
+    appId: "1:211019252250:web:ad3de8499b0fa1353f47a3"
   }
 };
 

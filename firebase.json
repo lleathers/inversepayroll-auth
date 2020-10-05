@@ -1,8 +1,7 @@
 {
   "hosting": [
     {
-      "target": "nbktrgag",
-      "public": "dist/nbktrgag",
+      "public": "dist",
       "ignore": [
         "**/.*"
       ],
