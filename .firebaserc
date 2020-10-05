@@ -1,14 +1,17 @@
 {
   "targets": {
-    "neighborbaked": {
+    "inversepay": {
       "hosting": {
         "nbktrgag": [
-          "neighborbaked"
+          "inversepay"
+        ],
+        "inversepayroll": [
+          "inversepay"
         ]
       }
     }
   },
   "projects": {
-    "neighborbaked0": "neighborbaked"
+    "neighborbaked0": "inversepay"
   }
 }

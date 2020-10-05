@@ -10,6 +10,6 @@
       #load { color: rgba(0,0,0,95.4); text-align: center; font-size: 13px; font-weight: bold; }
       @media (max-width: 600px) {
         body, #message { border-top: 0px solid #ffffff; margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-        #lawyer { background: url(./images/nbtm00.png); background-repeat: no-repeat; background-size: 300px 300px;  padding: 200px; }
+        body { border-top: 16px solid blue; }
+      /*  #lawyer { background: url(./images/nbtm00.png); background-repeat: no-repeat; background-size: 300px 300px;  padding: 200px; } */
       }
