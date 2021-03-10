@@ -1,7 +1,9 @@
     <div id="message">
+      <div id="explanation">&#9733; Please verify your identity. <a href="mailto:larry.leathers@inversepayroll.com">Email us.</a></div>
 
+      <div id="identifyfunction">Sign In / Register</div>
 
-      <img src="./assets/invpytm00a.png" width=100%> 
+      <img src="./assets/tinprlltm02.png" width=100%> 
 
 <!--
 
@@ -16,12 +18,12 @@
 <!--LOGIC for authentication-->
 
     <div *ngIf="auth.user | async as user; else showLogin">
-      <h1>Hi, {{ user.displayName }}! Text us now at (347) 439-7472. Read your email.</h1>
+      <h1>Hi, {{ user.displayName }}! Text us "hello IP" at (347) 439-7472 for appointment.</h1>
       <a class="specialanchor" (click)="logout()">Logout</a>
     </div>
     <ng-template #showLogin>
-      <p>Register. Get paid now, work later. Everyone qualifies.</p>
-      <a class="specialanchor" (click)="login()">Register for Inverse Payroll.</a>
+      <p>Get paid now, work later. You qualify!</p>
+      <a class="specialanchorin" (click)="login()">Continue with Google.</a>
     </ng-template>
 
 
@@ -34,7 +36,13 @@
 <p><b>NOTE: </b>WRITE-IN LARRY LEATHERS, for CONGRESS, NY 9th DISTRICT ON NOV 3, 2020. I SUPPORT A DISTRICTWIDE CREDIT UNION AND INVERSE PAYROLL. I am located at 2329 Nostrand Ave, Suite 100, Brooklyn, NY 11210 (347) 439-7472.</p>
 -->
 
+<!--
 <p><i><b>Please Contact Organizer for "Cash Before Work":</b> Write-In Larry Leathers, for Congress 2020 (NY 9), 2329 Nostrand Ave, Suite 100, Brooklyn, NY 11210, (347) 439-7472</i></p>
+-->
+
+<div id="explainbutton">
+NOTE: We authenticate with Google. Use your Google Account, i.e., Gmail. 
+</div>
 
 <div id="lawyer">
 </div>
